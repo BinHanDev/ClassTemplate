@@ -1,4 +1,4 @@
-# BHClassTemplate
+# ClassTemplate
 ## 常用类模板
 
 将BH Custom Class.xctemplate文件夹拷贝到下面目录下即可
