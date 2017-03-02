@@ -10,7 +10,7 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-#pragma mark - Private Method
+#pragma mark - Intial Methods
     
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -39,9 +39,9 @@
     [super updateConstraints];
 }
 
-#pragma mark - External Delegate
+#pragma mark - Private Method
 
-#pragma mark - Intial Methods
+#pragma mark - External Delegate
 
 #pragma mark - Setter Getter Methods
 
