@@ -15,6 +15,8 @@
     return [NSString stringWithUTF8String:object_getClassName([self class])];
 }
 
+#pragma mark - Intial Methods
+
 // Designated initializer.  If the cell can be reused, you must pass in a reuse identifier.  You should use the same reuse identifier for all cells of the same form.
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -42,13 +44,13 @@
     [super updateConstraints];
 }
 
-#pragma mark - Target Methods
-
 #pragma mark - Private Method
+
+#pragma mark - External Delegate
 
 #pragma mark - Setter Getter Methods
 
-#pragma mark - External Delegate
+#pragma mark - Target Methods
 
 /*
 - (void)awakeFromNib {
