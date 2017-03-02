@@ -10,6 +10,8 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+#pragma mark - Private Method
+    
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -37,14 +39,13 @@
     [super updateConstraints];
 }
 
-#pragma mark - Target Methods
+#pragma mark - External Delegate
 
-#pragma mark - Private Method
+#pragma mark - Intial Methods
 
 #pragma mark - Setter Getter Methods
 
-#pragma mark - External Delegate
-
+#pragma mark - Target Methods
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
