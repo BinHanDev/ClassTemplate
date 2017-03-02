@@ -40,14 +40,14 @@
     NSLog(@"%@-释放了",self.class);
 }
 
-#pragma mark - Intial Methods
-
-#pragma mark - Target Methods
-
 #pragma mark - Private Method
+
+#pragma mark - External Delegate
+
+#pragma mark - Intial Methods
 
 #pragma mark - Setter Getter Methods
 
-#pragma mark - External Delegate
+#pragma mark - Target Methods
 
 @end
